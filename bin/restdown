@@ -331,7 +331,7 @@ h1,h2,h3,h4,h5,h6 {
     doc_style = ""
     if doc_css:
         for name in google_fonts:
-            doc_style += '<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=%s">\n' % urlquote(name)
+            doc_style += '<link rel="stylesheet" type="text/css" href="http://fonts.useso.com/css?family=%s">\n' % urlquote(name)
         doc_style += "<style>\n%s\n</style>\n" % doc_css
     metadata["doc_style"] = doc_style
 

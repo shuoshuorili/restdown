@@ -9,6 +9,7 @@
     "PUT    /sshkeys/:id",
     "DELETE /sshkeys/:id",
     "GET    /smartmachines/node",
+    "POST   /smartmachines/node",
     "POST   /smartmachines/node"
   ],
   "version": "0.1.0"
